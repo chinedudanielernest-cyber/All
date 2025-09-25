@@ -1,0 +1,142 @@
+ body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo{
+    flex: 1;
+    padding: 20px;
+    margin-top: 0px;
+}
+.profile-icon{
+    position: relative;
+    bottom: 32px;
+    margin-left: 85px;
+}
+header{
+    display: flex;
+    position: fixed;
+} 
+nav{
+    position: relative;
+    top: 20px;
+    right: 15px;
+    padding-right: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#nn{
+    text-decoration: line-through;
+}
+p{
+    margin: 0;
+    position: relative;
+    right: 35px;
+    font-size: 10px;
+}
+#bn{
+    position: relative;
+    bottom: 12px;
+}
+.line-cover{
+    border: 1px solid black;
+    width: 98%;
+    position: relative;
+    left: 10px;
+}
+.bcover{
+    width: 350px;
+    border: 1px solid #ffcb05;
+    position: relative;
+    left: 36%;
+    top: 15px;
+    background-color: #ffcb05;
+    height: 190px;
+    text-align: center;
+    border-radius: 20px;
+    line-height:13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span{
+    font-size: 13px;
+    position: relative;
+    top: 13px;
+    
+}
+strong{
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+}
+.cover-line{
+    border: 1px solid;
+    width: 320px;
+    position: relative;
+    left: 37.2%;
+    bottom: 115px;
+}
+#button1{
+    color: #000000;
+    position: relative;
+    bottom: 108px;
+    left: 460px;
+    font-weight: 600;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+}
+#icon1{
+    margin-right: 13px;
+}
+#button2{
+    color: #000000;
+    position: relative;
+    bottom: 100px;
+    left: 480px;
+    font-weight: 600;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+}
+#icon2{
+    margin-top: 8px;
+}
+#bold{
+    position: relative;
+    bottom: 6px;
+}
+#button3{
+        color: #000000;
+    position: relative;
+    bottom: 50px;
+    left: 153px;
+    font-weight: 600;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    width: 325px;
+    height: 50px;
+    background-color: #fff;
+}
+#icon3{
+    margin-right:100px;
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+#last{
+    font-size: 19px;
+    position: relative;
+    right: 50px;
+}
+
+.container, a{
+    text-decoration: none;
+    color: #000000;
+}
