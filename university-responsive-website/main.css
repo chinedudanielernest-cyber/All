@@ -36,7 +36,7 @@ nav {
   align-items: center;
   width: 100%;
   position: relative;
-  bottom: 80px;
+  bottom:10px;
 }
 
 .nav-links {
@@ -170,16 +170,6 @@ h3{
 
 /* Campus */
 
-.london-img{
-  border-radius: 10px;
-  flex-basis: 32%;
-  margin-bottom: 30px;
-  position: relative;
-  width: 35%;
-  height: 70vh;
-  float: left;
-  background-color: rgba(255, 0, 0, 0.548);
-}
 
 /* .london-img:hover{
   background-color: rgba(255, 0, 0, 0.514);
@@ -192,6 +182,11 @@ h3{
   /* padding: 50px; */
 }
 
+.campus-col{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 
@@ -201,7 +196,9 @@ nav .mobile-icons {
   display: none;
 }
 
-@media (max-width: 700px) {
+
+
+@media (max-width:700px) {
   .nav-links ul li {
     display: block;
   }
@@ -211,7 +208,7 @@ nav .mobile-icons {
     background-color: #ff5100;
     height: 100vh;
     width: 200px;
-    top: 0;
+    top: -61px;
     right: -280px;
     text-align: left;
     z-index: 2;
@@ -226,7 +223,7 @@ nav .mobile-icons {
   }
 
   .text-box h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .course-row{
@@ -235,6 +232,11 @@ nav .mobile-icons {
 
   .course h1{
     font-size: 20px;
+  }
+
+
+  .campus-col{
+    flex-direction: column;
   }
 
 }

@@ -9,7 +9,8 @@ body{
 }
 
 header{
- color: #065e06; width: 100%;
+ color: #065e06;
+  width: 100%;
  max-width: 100%;
  display: flex;
  justify-content: space-evenly;
@@ -946,3 +947,40 @@ form h1{
   overflow: hidden;
   position: absolute;
 }
+
+
+/* Media queries */
+
+/* Mobile phones */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav a {
+    padding: 10px;
+  }
+
+  .amount {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .pay {
+    flex-direction: column;
+  }
+
+  .blue-body {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .body-card1, .body-card2, .body-card3 {
+    width: 90%;
+    margin: 20px 0;
+    left: 0;
+  }
+}
+
+
